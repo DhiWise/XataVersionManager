@@ -116,7 +116,7 @@ After creation, your project should look like this:
 7. react-scripts: `5.0.0`
 8. web-vitals: `^2.1.0`
 9. axios: `^0.27.2`
-10. lodash`: `^4.17.21`
+10. lodash: `^4.17.21`
 11. yup: `^0.32.11`
 12. react-toastify: `^9.0.1`
 13. prop-types: `^15.8.1`
