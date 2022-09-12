@@ -61,7 +61,7 @@ We have detected common components and have generated possible variants of it. T
 This file contains various environment variables that you can configure.
 
 **PORT** - Port to run your frontend on \
-**REACT_APP_GOOGLE_CLIENT_ID** - (Optional) Your Google Client ID
+**REACT_APP_GOOGLE_CLIENT_ID** - (Optional) Your Google Client ID. Get it from [here](https://developers.google.com/identity/gsi/web/guides/get-google-api-clientid)
 
 ## Version of Technologies
 
