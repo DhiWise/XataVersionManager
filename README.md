@@ -11,6 +11,7 @@ DhiWise automates the application development lifecycle and instantly generates 
 - [Features](#features)
 - [Screenshots](#screenshots)
 - [Setup](#setup)
+- [Xata DB Schema](#xata-db-schema)
 - [Version of Technologies](#version-of-technologies)
 - [Folder Structure](#folder-structure)
 - [Libraries used](#libraries-used-in-this-repository)
@@ -34,6 +35,7 @@ DhiWise automates the application development lifecycle and instantly generates 
 
 1. Get a Xata account from [here](https://xata.io)
 2. Create an application and put the token inside the `src/constants/creds.js` as a `XATA_TOKEN` constant.
+3. The `COMMON_URL` might differ from the existing one when you create your DB in XATA. Replace it with yours inside `src/service` file.
 
 ### Clone the repo
 
@@ -62,6 +64,17 @@ This file contains various environment variables that you can configure.
 
 **PORT** - Port to run your frontend on \
 **REACT_APP_GOOGLE_CLIENT_ID** - (Optional) Your Google Client ID
+
+## Xata DB Schema
+
+- To test this, you must create a DB schema as below:
+  1. Create a workspace named "Versions"
+  2. Create a Xatabase (database) named as "live"
+  3. Into the main branch, create 2 tables. one as "react" and another as "flutter"
+  4. Both tables will have following schema:
+     - id
+     - generator_name [string]
+     - version [string]
 
 ## Version of Technologies
 
